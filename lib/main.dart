@@ -144,19 +144,6 @@ class _MyHomePageState extends State<MyHomePage> {
     return Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
-          // Align(
-          //     alignment: Alignment.centerLeft,
-          //     child: Padding(
-          //       padding: EdgeInsets.all(0.0),
-          //       child: Text(
-          //         'Hi, Ritesh',
-          //         textAlign: TextAlign.left,
-          //         style: TextStyle(
-          //             fontFamily: 'Bebas Neue',
-          //             fontSize: 31,
-          //             fontWeight: FontWeight.w500),
-          //       ),
-          //     )),
           Align(
               alignment: Alignment.centerLeft,
               child: Padding(
@@ -203,8 +190,6 @@ class _MyHomePageState extends State<MyHomePage> {
                     'Java Programming for Data Science', 185, Colors.black),
                 _genCard('Personal Finance', 185, Colors.black),
               ])),
-          //Text("This app is dedicated to you. ${Emoji.byName('Red Heart').char}",
-          //  style: GoogleFonts.bebasNeue(fontSize: 12,), ),
         ]);
   }
 
@@ -212,23 +197,6 @@ class _MyHomePageState extends State<MyHomePage> {
     return Column(
       //mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
-        // Align(
-        //     alignment: Alignment.topCenter,
-        //     child: Padding(
-        //       padding: EdgeInsets.fromLTRB(0.0, 5.0, 0.0, 5.0),
-        //       child: Text(
-        //         'Start Learning',
-        //         textAlign: TextAlign.center,
-        //         style: TextStyle(
-        //           fontFamily: 'Bebas Neue',
-        //           fontSize: 35,
-        //         ),
-        //       ),
-        //     )),
-        // TextField(
-        //   decoration: InputDecoration(
-        //       border: OutlineInputBorder(), hintText: 'I want to learn .....'),
-        // ),
         Align(
             alignment: Alignment.centerLeft,
             child: Padding(
